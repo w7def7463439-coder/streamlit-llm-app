@@ -1,12 +1,11 @@
 from dotenv import load_dotenv
-
 load_dotenv()
-# app.py
 
 import streamlit as st
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI 
 from langchain.schema import SystemMessage, HumanMessage
 import os
+
 from dotenv import load_dotenv
 
 
